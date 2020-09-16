@@ -1,10 +1,20 @@
-import React, { useState } from 'react'
+import React from 'react'
+
+import Navbar from './Navbar'
+
+import './Home.css'
 
 const Home = () => {
-	const [state, setState] = useState()
 
 		return (
-		 <div></div>
+		 <div className='container-home'>
+			<Navbar />
+			<div className='myName'>
+				<h2>Jean-Philippe GERARD</h2>
+				<p>Développeur Web</p>
+				<p>| React.js | Node.js | </p>
+			</div>
+		 </div>
 		)
 }
 

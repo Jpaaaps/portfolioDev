@@ -3,10 +3,41 @@ nav ul li {
 	margin: 1em;
 }
 
+nav ul li a.active:after {
+	display: inline-block;
+	content: "";
+	width: 100%;
+	height: 3px;
+	background: #ffffff;
+	border-radius: 5px;
+}
+
+li a:after {
+	display: inline-block;
+	content: "";
+	width: 100%;
+	height: 3px;
+	background: #ffffff;
+	border-radius: 5px;
+	transform: scaleX(0);
+	transition: .25s linear;
+}
+
+li a:hover:after,
+li a:focus:after {
+	visibility: visible;
+	transform: scaleX(1);
+}
+
 ul {
 	display: flex;
+	margin-top: 0;
+	padding-top: 1em;
+	justify-content: center;
 }
 
 a {
 	text-decoration: none;
+	color: rgb(255, 255, 255);
+	font-size: 1.2em;
 }

@@ -6,10 +6,10 @@ import './Navbar.css'
 const Navbar = () => {
 
 	return (
-		<nav>
+		<nav id='navigation'>
 			<ul>
 				<li>
-					<NavLink to='/' activeClassName='active'>Home</NavLink>
+					<NavLink to='/' activeClassName='active'>Acceuil</NavLink>
 				</li>
 				<li>
 					<NavLink to='/about' activeClassName='active'>À Propos</NavLink>
