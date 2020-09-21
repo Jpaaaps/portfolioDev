@@ -19,4 +19,5 @@ p {
 	background-image: url('../pictures/background.jpg');
 	background-size: 100%;
 	height: 100vh;
+	vertical-align: center;
 }
