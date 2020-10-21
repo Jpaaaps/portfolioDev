@@ -31,6 +31,7 @@
   width: 350pt;
   overflow: hidden;
   background-color: rgba(221, 221, 221, 0.459);
+  padding-bottom: 20px;
  }
 
 .picProject {
@@ -65,5 +66,13 @@ h3 {
 @media screen and (max-width: 640px) {
   .project {
     width: 80%;
+  }
+
+  .modalContainer {
+    width: 200pt;
+  }
+
+  .picProject {
+    margin-left: 2.5em;
   }
 }

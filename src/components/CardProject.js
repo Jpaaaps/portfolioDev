@@ -38,7 +38,7 @@ const CardProject = ({ src, name, description, urlDeployed, urlGithub }) => {
         <div className='modalContainer'>
 
           <div className='modalHead'>
-            <p className='modalClose' onClick={closeModal} />
+            <p className='modalClose' onClick={closeModal}/>
           </div>
 
           <h3>{name}</h3>
