@@ -1,0 +1,16 @@
+.projectsList {
+  display: flex;
+  flex-flow: row wrap;
+  margin: auto 1em;
+	justify-content: center;
+}
+
+@media (max-width: 768px) {
+	.projectsList {
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		margin: 3em;
+		overflow: hidden;
+	}
+}

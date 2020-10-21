@@ -1,0 +1,43 @@
+.navbarContact {
+	color: black;
+}
+
+.monContact {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 3em;
+}
+
+.monMail, .monTel {
+	width: 18em;
+	height: 8em;
+	background-color: rgba(255, 255, 255, 0.541);
+	margin-bottom: 1em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 2px;
+	box-shadow: 5px 5px 8px rgba(211, 211, 211, 0.884);
+}
+
+.mail, .telephone {
+	color: rgba(82, 82, 82, 0.781);
+	padding: 20px;
+	font-weight: bold;
+}
+
+.mail:hover, .telephone:hover {
+	color: whitesmoke;
+}
+
+.monMail:hover, .monTel:hover {
+	opacity: 1;
+	background-color: rgba(17, 12, 44, 0.8);
+}
+
+@media (max-width: 768px) {
+	.monContact {
+		margin-top: 7em;
+	}
+}
