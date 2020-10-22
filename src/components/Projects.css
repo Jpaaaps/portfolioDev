@@ -11,6 +11,6 @@
 		flex-direction: column;
 		align-content: center;
 		margin: 3em;
-		overflow: hidden;
+		overflow: auto;
 	}
 }
