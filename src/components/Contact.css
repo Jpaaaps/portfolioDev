@@ -31,13 +31,14 @@
 	font-weight: bold;
 }
 
-.mail:hover, .telephone:hover {
-	color: whitesmoke;
-}
-
 .monMail:hover, .monTel:hover {
 	opacity: 1;
 	background-color: rgba(17, 12, 44, 0.8);
+}
+
+.monMail:hover a,
+.monTel:hover a {
+	color: whitesmoke;
 }
 
 @media (max-width: 768px) {
