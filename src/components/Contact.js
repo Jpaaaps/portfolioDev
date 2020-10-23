@@ -17,15 +17,15 @@ const Contact = () => {
 			<div className='monContact'>
 				<div className='monMail'>
 					<a className='mail' href="mailto:jpgerard87@gmail.com">
-						<FontAwesomeIcon icon={faPaperPlane} size='3x'/>
+						<FontAwesomeIcon className='envelop' icon={faPaperPlane} size='2x'/>
 						Un message pour moi?
 					</a>
 				</div>
 				<div className='monTel'>
-					<p className='telephone'>
-						<FontAwesomeIcon icon={faPhoneAlt} size='3x' />
-					+336.23.07.47.33
-					</p>
+					<a className='telephone' href='tel:0623074733'>
+						<FontAwesomeIcon className='phone' icon={faPhoneAlt} size='2x' />
+					M'appeler?
+					</a>
 				</div>
 			</div>
 			<div className='logos'>

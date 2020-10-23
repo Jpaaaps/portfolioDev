@@ -1,13 +1,15 @@
 .project {
-  width: 20%;
+  width: 150pt;
+  height: 150pt;
   margin: 1em;
-  padding: 1em;
-  background-color: rgb(255, 255, 255);
+  padding: 0.8em;
+  background-color: rgba(255, 255, 255, 0.925);
   box-shadow: 5px 5px 15px rgb(218, 218, 218);
 }
 
 .project:hover {
-  opacity: 1;
+  transform: scale(1.2);
+  transition: all 600ms;
 }
 
 .modalImg {
@@ -63,9 +65,10 @@ h3 {
   overflow-y: hidden;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px) {
   .project {
-    width: 80%;
+    width: 150pt;
+    height: 150pt;
   }
 
   .modalContainer {
