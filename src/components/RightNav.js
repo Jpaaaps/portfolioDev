@@ -30,7 +30,7 @@ const RightNav = ({ open }) => {
   return (
     <Ul open={open}>
       <li>
-					<NavLink to='/' activeClassName='active'>Acceuil</NavLink>
+					<NavLink to='/' activeClassName='active'>Accueil</NavLink>
 				</li>
 				<li>
 					<NavLink to='/about' activeClassName='active'>À Propos</NavLink>
