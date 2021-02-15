@@ -15,8 +15,8 @@ const Home = () => {
 			</div>
 			<div className='me'>
 				<h2 className='name'>Jean Philippe GERARD</h2>
-				<p className='job'>Développeur Web</p>
-				<p className='job'>React.js | Node.js</p>
+				<p className='job'>| Développeur Web |</p>
+				{/* <p className='job'>React.js | Node.js</p> */}
 			</div>
 			<div className='logos'>
 				<a href='https://github.com/Jpaaaps' target='_blank' rel="noopener noreferrer">
