@@ -41,8 +41,29 @@
 	color: whitesmoke;
 }
 
+.monMail:active,
+.monTel:active {
+  background-color: rgba(41, 25, 129, 0.8);
+  transform: translateY(4px);
+}
+
 @media (max-width: 768px) {
 	.monContact {
 		margin-top: 7em;
+	}
+}
+
+@media (min-width: 1440px) {
+
+	.navbarContact {
+		font-size: x-large;
+	}
+
+	.monContact {
+		font-size: x-large;
+	}
+
+	.logos {
+		font-size: x-large;
 	}
 }

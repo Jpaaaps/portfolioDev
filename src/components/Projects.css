@@ -1,8 +1,9 @@
 .projectsList {
   display: flex;
   flex-flow: row wrap;
-  margin: 0 0 4em 0;
 	justify-content: center;
+	max-width: 60%;
+	margin: auto;
 }
 
 @media (max-width: 768px) {
@@ -10,7 +11,16 @@
 		display: flex;
 		flex-direction: column;
 		align-content: center;
-		margin: 3em;
+		margin: auto;
+		margin-top: 3rem;
 		overflow: auto;
+	}
+}
+
+@media (max-width:1024px) {
+
+	.projectList {
+		max-width: 90%;
+		margin: auto;
 	}
 }
